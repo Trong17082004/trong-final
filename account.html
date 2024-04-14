@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./account.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="account">
+      <div class="rectangle-parent25">
+        <div class="frame-child43"></div>
+        <div class="frame-parent59">
+          <div class="icon-home-parent" id="groupContainer">
+            <img
+              class="icon-home5"
+              loading="lazy"
+              alt=""
+              src="./public/-icon-home1.svg"
+            />
+
+            <div class="cellphone-s">
+              <h1 class="cellphones5">CellphoneS</h1>
+            </div>
+          </div>
+          <div class="menu-label-parent">
+            <div class="menu-label">
+              <div class="menu-label-child"></div>
+              <button class="list-label">
+                <div class="list-label-child"></div>
+                <div class="danh-mc5">DANH MỤC</div>
+              </button>
+            </div>
+            <div class="phone-icon">
+              <div class="phone-icon-child"></div>
+              <div class="bn-cn-g5">BẠN CẦN GÌ?</div>
+              <img
+                class="icon-magnifying-glass5"
+                loading="lazy"
+                alt=""
+                src="./public/-icon-magnifying-glass1.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="frame-wrapper35">
+          <div class="frame-parent60">
+            <div class="member-level-parent">
+              <div class="member-level"></div>
+              <img
+                class="icon-phone5"
+                loading="lazy"
+                alt=""
+                src="./public/-icon-phone1.svg"
+              />
+            </div>
+            <div class="ellipse-parent10">
+              <div class="frame-child44"></div>
+              <img
+                class="icon-person6"
+                loading="lazy"
+                alt=""
+                src="./public/-icon-person1.svg"
+              />
+            </div>
+            <div class="logout-button">
+              <div class="icon-shopping-cart-parent">
+                <div class="icon-shopping-cart"></div>
+                <img
+                  class="icon-cart5"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-cart1.svg"
+                  id="iconCart"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="account-inner">
+        <div class="member-name-parent">
+          <div class="member-name">
+            <div class="rectangle-parent26">
+              <div class="frame-child45"></div>
+              <img
+                class="icon-person7"
+                loading="lazy"
+                alt=""
+                src="./public/-icon-person-1.svg"
+              />
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="member-name-label">
+              <div class="member-email-label">
+                <div class="join-date-label">
+                  <div class="tn-abcde">Tên: Abcde</div>
+                </div>
+                <div class="hng-thnh-vin">Hạng thành viên Smember:</div>
+              </div>
+            </div>
+            <div class="frame-parent61">
+              <div class="email-abcdegmailcom-wrapper">
+                <div class="email-abcdegmailcom">Email: abcde@gmail.com</div>
+              </div>
+              <button class="rectangle-parent27" id="groupButton">
+                <div class="frame-child46"></div>
+                <div class="ng-xut">ĐĂNG XUẤT</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./trang-ch.html";
+        });
+      }
+      
+      var iconCart = document.getElementById("iconCart");
+      if (iconCart) {
+        iconCart.addEventListener("click", function (e) {
+          window.location.href = "./gi-hng.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>
